@@ -103,3 +103,17 @@ const foodMenu = (item1, item2, item3, item4) => {
 const takeOutBag = foodMenu("Ultimate Slammer", "Fudge sundae", "Mr. Pepper", "Potato wedges");
 
 // Higher Order Functions
+const personName = {
+  firstName: "Liz",
+  lastName: "B"
+}
+const brushTeeth = (person) => `${person.firstName} ${person.lastName} brushed their teeth`;
+const makeBreakfast = (person) => `${person.firstName} ${person.lastName} made breakfast`;
+const workout = (person) => `${person.firstName} ${person.lastName} worked out`;
+const carWash = (person) => `${person.firstName} ${person.lastName} washed their car`;
+const callMom = (person) => `${person.firstName} ${person.lastName} called their mom`;
+const journal = (person) => `${person.firstName} ${person.lastName} journaled`;
+
+const dayPlanner = (chore, person, day) => {
+
+}
